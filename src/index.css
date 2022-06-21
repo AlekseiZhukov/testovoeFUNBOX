@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "trebuchetms";
+  src: url("./assets/fonts/trebuchetms.ttf");
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: url("./assets/fonts/Exo2.ttf");
+}
+
+
+body {
+  margin: 0;
+  font-family: "trebuchetms", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+}
