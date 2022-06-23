@@ -9,7 +9,9 @@ const NODE_ENV = process.env.NODE_ENV;
 module.exports = {
     mode: NODE_ENV ? NODE_ENV : 'development',
     entry: path.resolve( __dirname, 'src/index.js' ),
+
     output:{
+
         path: path.resolve( __dirname, 'build' ),
         filename: 'build.js',
         assetModuleFilename: "assets/[name]__[hash][ext][query]"
@@ -42,7 +44,7 @@ module.exports = {
                             }
                         }
                     },
-                    'sass-loader'
+                    'sass-loader',
                 ]
             },
             {
@@ -51,7 +53,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            outputPath: 'assets/images',
+                            outputPath: 'assets',
                             name: '[name][hash:base64:5].[ext]'
                         }
                     }

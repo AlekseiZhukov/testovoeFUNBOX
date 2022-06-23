@@ -1,20 +1,22 @@
 @font-face {
-  font-family: "trebuchetms";
+  font-family: "Trebuchet MS";
   src: url("./assets/fonts/trebuchetms.ttf");
 }
 
 @font-face {
-  font-family: "Exo2";
-  src: url("./assets/fonts/Exo2.ttf");
+  font-family: 'Exo 2';
+  src: url("./assets/fonts/Exo2-Regular.eot") format('embedded-opentype'),
+  url("./assets/fonts/Exo2-Regular.ttf") format('truetype'),
+  url("./assets/fonts/Exo2-Regular.woff") format('woff'),
+  url("./assets/fonts/Exo2-Regular.woff2") format('woff2');
 }
-
 
 body {
   margin: 0;
-  font-family: "trebuchetms", Helvetica, Arial, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-
 }
+
